@@ -1,3 +1,4 @@
 {
-  "BASE_URL": "https://owner-api.teslamotors.com/api/1"
+  "BASE_URL": "https://owner-api.teslamotors.com/api/1",
+  "SOCKET_BASE_URL": "wss://streaming.vn.teslamotors.com"
 }
