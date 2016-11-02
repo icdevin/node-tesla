@@ -1,3 +1,6 @@
 'use strict';
 
-module.exports = require('./lib/tesla');
+module.exports = {
+  Tesla: require('./lib/tesla'),
+  Summon: require('./lib/summon')
+};
