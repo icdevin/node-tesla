@@ -54,7 +54,20 @@ function getPageOptions (url) {
     page.open(url + '?redirect=no', function (status) {
       if (status === 'success') {
         return resolve(page.evaluate(function () {
-          return Drupal.settings.tesla;
+          // For some reason, these two fields are stringified
+          var tesla = Drupal.settings.tesla;
+          if (tesla.configSetPrices) {
+            tesla.configSetPrices = JSON.parse(
+              tesla.configSetPrices
+            );
+          }
+          if (tesla.earliestDeliveryData) {
+            tesla.earliestDeliveryData = JSON.parse(
+              tesla.earliestDeliveryData
+            );
+          }
+
+          return tesla;
         }));
       } else {
         return resolve(null);
