@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://www.tesla.com",
+  "country": "MO",
+  "isFront": false,
+  "isProduction": true,
+  "locale": "en_MO",
+  "localePrefix": "/en_MO",
+  "pathAlias": "reserve",
+  "region": "MO",
+  "superRegion": "apac"
+}

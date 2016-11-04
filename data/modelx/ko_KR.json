@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://www.tesla.com",
+  "country": "KR",
+  "isFront": false,
+  "isProduction": true,
+  "locale": "ko_KR",
+  "localePrefix": "/ko_KR",
+  "pathAlias": "reserve",
+  "region": "KR",
+  "superRegion": "apac"
+}

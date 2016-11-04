@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://www.tesla.com",
+  "country": "TW",
+  "isFront": false,
+  "isProduction": true,
+  "locale": "zh_TW",
+  "localePrefix": "/zh_TW",
+  "pathAlias": "reserve",
+  "region": "TW",
+  "superRegion": "apac"
+}
