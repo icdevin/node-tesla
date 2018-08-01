@@ -2,26 +2,25 @@
   "name": "node-tesla",
   "version": "0.1.0",
   "description": "A Node.js package for the Tesla JSON API",
+  "homepage": "https://github.com/icdevin/node-tesla",
+  "author": "Devin Doolin",
+  "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/icdevin/node-tesla",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/icdevin/node-tesla/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "bluebird": "^3.4.6",
     "lodash": "^4.16.3",
     "request": "^2.74.0",
     "request-promise": "^4.1.1",
     "ws": "^1.1.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "url": "git+https://github.com/icdevin/node-tesla.git",
-    "type": "git"
-  },
-  "author": "Devin Doolin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/icdevin/node-tesla/issues"
-  },
-  "homepage": "https://github.com/icdevin/node-tesla#readme"
+  }
 }
